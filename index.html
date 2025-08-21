@@ -6,16 +6,20 @@
   <title>Mijourney</title>
   <!-- Link CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <h1>Mijourney ✈️</h1>
-    <p>Temukan pengalaman terbaik liburanmu</p>
+  <header class="header">
+    <div class="header-content">
+      <h1>Mijourney ✈️</h1>
+      <p>Temukan pengalaman terbaik liburanmu</p>
+    </div>
   </header>
 
   <!-- Navbar -->
-  <nav>
+  <nav class="navbar">
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#destinasi">Destinasi</a></li>
@@ -24,40 +28,69 @@
     </ul>
   </nav>
 
-  <!-- Home Section -->
-  <section id="home" class="container">
-    <h2>Home</h2>
-    <p>Selamat datang di <b>Mijourney</b>! Website ini bakal kasih inspirasi buat liburan lo, dari pantai sampai gunung, dari budaya sampai kuliner.</p>
-    <img src="https://source.unsplash.com/800x400/?travel,indonesia" alt="Travel Indonesia">
-  </section>
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="container section">
+      <div class="section-content">
+        <h2>Home</h2>
+        <p>
+          Selamat datang di <b>Mijourney</b>! Website ini bakal kasih inspirasi buat liburan lo, dari pantai sampai gunung, dari budaya sampai kuliner.
+        </p>
+        <img src="https://source.unsplash.com/800x400/?travel,indonesia" alt="Travel Indonesia" class="main-img">
+      </div>
+    </section>
 
-  <!-- Destinasi Section -->
-  <section id="destinasi" class="container">
-    <h2>Destinasi Populer</h2>
-    <ul>
-      <li><b>Bali 🌴</b> – Pantai eksotis, budaya unik, sunset romantis.</li>
-      <li><b>Yogyakarta 🏯</b> – Sejarah, kuliner, Candi Borobudur & Prambanan.</li>
-      <li><b>Lombok 🏝️</b> – Gili Islands & pendakian Gunung Rinjani.</li>
-      <li><b>Raja Ampat 🐠</b> – Surga diving di Papua Barat.</li>
-    </ul>
-    <img src="https://source.unsplash.com/800x400/?beach,indonesia" alt="Destinasi Populer">
-  </section>
+    <!-- Destinasi Section -->
+    <section id="destinasi" class="container section">
+      <div class="section-content">
+        <h2>Destinasi Populer</h2>
+        <div class="destinasi-list">
+          <div class="destinasi-card">
+            <h3>Bali 🌴</h3>
+            <p>Pantai eksotis, budaya unik, sunset romantis.</p>
+          </div>
+          <div class="destinasi-card">
+            <h3>Yogyakarta 🏯</h3>
+            <p>Sejarah, kuliner, Candi Borobudur & Prambanan.</p>
+          </div>
+          <div class="destinasi-card">
+            <h3>Lombok 🏝️</h3>
+            <p>Gili Islands & pendakian Gunung Rinjani.</p>
+          </div>
+          <div class="destinasi-card">
+            <h3>Raja Ampat 🐠</h3>
+            <p>Surga diving di Papua Barat.</p>
+          </div>
+        </div>
+        <img src="https://source.unsplash.com/800x400/?beach,indonesia" alt="Destinasi Populer" class="main-img">
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="container">
-    <h2>About</h2>
-    <p>Mijourney dibuat buat lo yang butuh referensi liburan seru di Indonesia. Simple, inspiratif, dan pastinya bikin lo pengen jalan-jalan.</p>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="container section">
+      <div class="section-content">
+        <h2>About</h2>
+        <p>
+          Mijourney dibuat buat lo yang butuh referensi liburan seru di Indonesia. Simple, inspiratif, dan pastinya bikin lo pengen jalan-jalan.
+        </p>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Kalau ada pertanyaan atau mau share pengalaman liburan, kontak gue di sini 👇</p>
-    <p>Email: <a href="mailto:email@contoh.com">email@contoh.com</a></p>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="container section">
+      <div class="section-content">
+        <h2>Contact</h2>
+        <p>
+          Kalau ada pertanyaan atau mau share pengalaman liburan, kontak gue di sini 👇
+        </p>
+        <p>Email: <a href="mailto:email@contoh.com">email@contoh.com</a></p>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 Mijourney. All Rights Reserved.</p>
   </footer>
 </body>
